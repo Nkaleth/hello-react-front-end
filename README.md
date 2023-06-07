@@ -29,7 +29,7 @@
 
 # 📖 Hello Rails-React <a name="about-project"></a>
 
-**Hello Rails-React** is a Project to try the Implementation the connection between a Ruby on Rails back-end and React front-end using Webpack.
+**Hello Rails-React** is a Project to try the Implementation the connection between a Ruby on Rails back-end and React front-end using Webpack. [Link to the Back-end project with rails](https://github.com/Nkaleth/hello-rails-back-end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +99,6 @@ Clone this repository to your desired folder:
 ### Install
 
 ```sh
-  bundle install
-```
-```sh
   npm install
 ```
 
@@ -136,7 +133,7 @@ To run the project, execute the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- **React and Rails in separate repos**
+- **Improve the styling with Bootstrap or Tailwind**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
