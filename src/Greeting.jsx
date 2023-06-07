@@ -1,9 +1,20 @@
-const Greeting = () => {
-  return (
-    <>
-      <h1>Greetings!</h1>
-    </>
-  )
-}
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchGreeting } from './greetingSlice';
 
-export default Greeting
+const Greeting = () => {
+  const dispatch = useDispatch();
+  const greeting = useSelector((state) => state.greeting.value);
+
+  useEffect(() => {
+    dispatch(fetchGreeting());
+  }, [dispatch]);
+
+  return (
+    <div>
+      {greeting}
+    </div>
+  );
+};
+
+export default Greeting;
